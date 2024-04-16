@@ -49,14 +49,14 @@ if file1 and access_token and authorization:
         for index, row in df.iterrows():
             entity_id = row['Entity ID'] 
             col_2_value = row['col_2']
-            col_4_value = row['col_4']
+ #           col_4_value = row['col_4']
 
             # Data for PATCH request
             data = {
                 "extendedData": {
                     "HFCS_Extended_DB_1703058763": {
-                        "col_2": col_2_value,
-                        "col_4": col_4_value
+                        "col_2": col_2_value
+     #                   "col_4": col_4_value
                     }
                 }
             }
