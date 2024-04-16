@@ -55,7 +55,7 @@ if file1 and access_token and authorization:
             data = {
                 "extendedData": {
                     "HFCS_Extended_DB_1703058763": {
-                        "col_2": col_2_value
+                        "col_2": col_2_value,
                         "col_4": col_4_value
                     }
                 }
