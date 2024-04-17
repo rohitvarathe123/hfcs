@@ -81,16 +81,7 @@ def make_api_request(plate_no_value, mch):
 
 
 
-#plate_numbers = [
-#    "1284410792",
-#    "1284410814",
-#    "1284410951",
-#    "1284410770",
-#    "1284410954",
-#    "1284410766",
-#    "1284410805"
-#]
-#
+
 #plate_no_value = st.selectbox("Select Plate Number", plate_numbers, index=1)
 plate_no_value = st.text_input("Enter Custom Plate Number")
 
