@@ -1,3 +1,4 @@
+pip install streamlit requests pandas streamlit_folium folium streamlit-player
 
 import streamlit as st
 import requests
